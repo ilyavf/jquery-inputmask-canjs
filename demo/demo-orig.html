@@ -1,0 +1,17 @@
+<!doctype html>
+<script type="text/stache" id="demo" can-autorender>
+  <input type="text" id="selector" />
+</script>
+
+<script src="../node_modules/steal/steal.js"
+				main="can/view/autorender/">
+
+	import can from 'can';
+	import $ from 'jquery';
+	import Inputmask from 'node_modules/jquery.inputmask/dist/inputmask/inputmask';
+
+	var selector = document.getElementById("selector");
+
+	var im = new Inputmask("99-9999999");
+	im.mask(selector);
+</script>
