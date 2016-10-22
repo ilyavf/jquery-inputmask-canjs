@@ -6,7 +6,7 @@
 
 ## Usage
 
-This is a (CanJS)[https://canjs.com/] wrapper for (jquery.inputmask)[http://robinherbots.github.io/Inputmask/]. It uses (can.view.attr)[https://canjs.com/docs/can.view.attr.html] to instantiate the plugin based on the `inputmask` attribute.
+This is a [CanJS](https://canjs.com/) wrapper for [jquery.inputmask](http://robinherbots.github.io/Inputmask/). It uses [can.view.attr](https://canjs.com/docs/can.view.attr.html) to instantiate the plugin based on the `inputmask` attribute.
 
 ### Install
 
