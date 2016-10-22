@@ -1,6 +1,6 @@
 {
   "name": "jquery-inputmask-canjs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CanJS wrapper for the jquery.inputmask plugin",
   "homepage": "",
   "repository": {
