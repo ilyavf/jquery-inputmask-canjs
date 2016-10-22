@@ -5,7 +5,7 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git://github.com//jquery-inputmask-canjs.git"
+    "url": "git://github.com/ilyavf/jquery-inputmask-canjs.git"
   },
   "author": {
     "name": "Ilya Fadeev",
