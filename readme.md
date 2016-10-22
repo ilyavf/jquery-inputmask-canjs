@@ -6,52 +6,21 @@
 
 ## Usage
 
-### ES6 use
+This is a CanJS wrapper of the `jquery.inputmask`. It uses `can.view.attr` to instantiate the plugin based on the `inputmask` attribute.
 
-With StealJS, you can import this module directly in a template that is autorendered:
+### Install
 
-```js
-import plugin from 'jquery-inputmask-canjs';
+```
+$ npm install jquery-inputmask-canjs
 ```
 
-### CommonJS use
-
-Use `require` to load `jquery-inputmask-canjs` and everything else
-needed to create a template that uses `jquery-inputmask-canjs`:
-
-```js
-var plugin = require("jquery-inputmask-canjs");
+Stache template:
+```
+<can-import from="jquery-inputmask-canjs" />
+<input inputmask="99-9999999" type="text" />
+<input inputmask="9-a{1,3}9{1,3}" type="text" />
 ```
 
-## AMD use
-
-Configure the `can` and `jquery` paths and the `jquery-inputmask-canjs` package:
-
-```html
-<script src="require.js"></script>
-<script>
-	require.config({
-	    paths: {
-	        "jquery": "node_modules/jquery/dist/jquery",
-	        "can": "node_modules/canjs/dist/amd/can"
-	    },
-	    packages: [{
-		    	name: 'jquery-inputmask-canjs',
-		    	location: 'node_modules/jquery-inputmask-canjs/dist/amd',
-		    	main: 'lib/jquery-inputmask-canjs'
-	    }]
-	});
-	require(["main-amd"], function(){});
-</script>
-```
-
-### Standalone use
-
-Load the `global` version of the plugin:
-
-```html
-<script src='./node_modules/jquery-inputmask-canjs/dist/global/jquery-inputmask-canjs.js'></script>
-```
 
 ## Contributing
 

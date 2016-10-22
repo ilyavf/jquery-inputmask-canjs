@@ -1,7 +1,7 @@
 {
   "name": "jquery-inputmask-canjs",
   "version": "0.1.0",
-  "description": "",
+  "description": "CanJS wrapper for the jquery.inputmask plugin",
   "homepage": "",
   "repository": {
     "type": "git",
@@ -9,8 +9,7 @@
   },
   "author": {
     "name": "Ilya Fadeev",
-    "email": "fadeev.ilya@gmail.com",
-    "url": ""
+    "email": "fadeev.ilya@gmail.com"
   },
   "scripts": {
     "preversion": "npm test && npm run build",
@@ -26,6 +25,16 @@
     "document": "documentjs"
   },
   "main": "dist/cjs/jquery-inputmask-canjs",
+  "maintainers": [
+	{
+	  "name": "ilyavf",
+	  "email": "fadeev.ilya@gmail.com"
+	},
+	{
+	  "name": "MarcGodard",
+	  "email": "me@marcgodard.com"
+	}
+  ],
   "browser": {
     "transform": [
       "cssify"
