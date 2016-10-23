@@ -1,8 +1,9 @@
 <!doctype html>
 <script type="text/stache" id="demo" can-autorender>
-	<can-import from="src/index"/>
+	<can-import from="src/jquery-inputmask-canjs"/>
   <input inputmask="99-9999999" type="text" />
   <input inputmask="9-a{1,3}9{1,3}" type="text" />
+  <input inputmask="(999)999-9999" type="text" />
 </script>
 
 <script src="../node_modules/steal/steal.js"

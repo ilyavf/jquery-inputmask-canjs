@@ -21,6 +21,7 @@ Stache template:
 <input inputmask="9-a{1,3}9{1,3}" type="text" />
 ```
 
+![inputmask demo](./dist/demo.png)
 
 ## Contributing
 
