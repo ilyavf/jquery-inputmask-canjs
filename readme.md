@@ -1,6 +1,6 @@
 # jquery-inputmask-canjs
 
-[![Build Status](https://travis-ci.org//jquery-inputmask-canjs.png?branch=master)](https://travis-ci.org//jquery-inputmask-canjs)
+[![Build Status](https://travis-ci.org/ilyavf/jquery-inputmask-canjs.png?branch=master)](https://travis-ci.org/ilyavf/jquery-inputmask-canjs)
 
 
 
@@ -21,7 +21,7 @@ Stache template:
 <input inputmask="9-a{1,3}9{1,3}" type="text" />
 ```
 
-![inputmask demo](./dist/demo.png)
+![inputmask demo](./demo/demo.png)
 
 ## Contributing
 
