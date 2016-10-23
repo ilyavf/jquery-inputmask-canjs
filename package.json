@@ -1,6 +1,6 @@
 {
   "name": "jquery-inputmask-canjs",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "CanJS wrapper for the jquery.inputmask plugin",
   "homepage": "",
   "repository": {
@@ -26,14 +26,14 @@
   },
   "main": "dist/cjs/jquery-inputmask-canjs",
   "maintainers": [
-	{
-	  "name": "ilyavf",
-	  "email": "fadeev.ilya@gmail.com"
-	},
-	{
-	  "name": "MarcGodard",
-	  "email": "me@marcgodard.com"
-	}
+    {
+      "name": "ilyavf",
+      "email": "fadeev.ilya@gmail.com"
+    },
+    {
+      "name": "MarcGodard",
+      "email": "me@marcgodard.com"
+    }
   ],
   "browser": {
     "transform": [
@@ -63,13 +63,13 @@
       "lib": "src"
     },
     "npmAlgorithm": "flat",
-	"paths": {
-	  "inputmask.dependencyLib": "node_modules/jquery.inputmask/dist/inputmask/inputmask.dependencyLib.jquery.js"
-	}
+    "paths": {
+      "inputmask.dependencyLib": "node_modules/jquery.inputmask/dist/inputmask/inputmask.dependencyLib.jquery.js"
+    }
   },
   "dependencies": {
     "can": "^2.3.27",
-	"jquery":"^1.11.3",
+    "jquery": "^1.11.3",
     "jquery.inputmask": "^3.3.3"
   },
   "devDependencies": {
