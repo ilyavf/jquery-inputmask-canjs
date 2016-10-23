@@ -1,7 +1,7 @@
 var QUnit = require('steal-qunit');
 var can = require('can');
 var stache = require('can/view/stache/');
-require('src/index');
+require('src/jquery-inputmask-canjs');
 
 QUnit.module('jquery-inputmask-attr');
 
